@@ -77,3 +77,18 @@ sudo chmod a+rx /usr/local/bin/yt-dlp
 wget -P $HOME/Downloads/ https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-linux-3.4.2-x64.AppImage
 
 # wget -P $HOME/Downloads/  https://download.librepcb.org/releases/1.0.0/librepcb-1.0.0-linux-x86_64.AppImage
+
+# Create Python virtual environment in the user's home directory
+python3 -m venv ~/pyenv
+
+# Activate the virtual environment
+source ~/pyenv/bin/activate
+
+# Installing python packages
+pip install numpy
+pip install pandas
+
+# Deactivate the virtual environment and return to the global environment
+deactivate
+
+echo "Completed"
