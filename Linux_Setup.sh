@@ -40,6 +40,7 @@ sudo apt-get -y install inkscape
 sudo apt-get -y install bleachbit
 sudo apt-get -y install ffmpeg
 sudo apt-get -y install smartmontools
+# Need to add clamAV
 
 # Various snaps:
 sudo snap install vlc
